@@ -1,0 +1,13 @@
+{
+  "name": "test-demo",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "file": "node index.js",
+    "http": "node http.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
