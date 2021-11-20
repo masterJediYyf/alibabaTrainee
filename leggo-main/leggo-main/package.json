@@ -1,0 +1,54 @@
+{
+  "name": "leggo",
+  "version": "0.1.27",
+  "private": false,
+  "description": "A drag and drop front-end form configuration generation tool!",
+  "files": [
+    "/lib"
+  ],
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KerryCodes/leggo.git"
+  },
+  "keywords": [
+    "form",
+    "draggable"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KerryCodes/leggo/issues"
+  },
+  "homepage": "https://github.com/KerryCodes/leggo#readme",
+  "author": "974381983@qq.com",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "tsc": "tsc",
+    "wp": "webpack",
+    "serve": "vite preview "
+  },
+  "dependencies": {
+    "antd": "^4.16.13",
+    "axios": "^0.21.4",
+    "lodash": "^4.17.21",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "less": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.172",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.2.0",
+    "less-loader": "^10.0.1",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.1",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0"
+  }
+}
